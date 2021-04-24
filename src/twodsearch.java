@@ -1,3 +1,4 @@
+import java.nio.file.FileSystemNotFoundException;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -21,6 +22,7 @@ public class twodsearch
              arr1= m1(arr,ele);
 
              System.out.println(Arrays.toString(arr1));
+             System.out.println("Hi");
     }
     static int[] m1(int[][] arr,int ele)
     {
